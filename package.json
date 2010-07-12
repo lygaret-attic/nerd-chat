@@ -1,0 +1,23 @@
+{
+	"name": "nerdchat",
+	"version": "0.0.1",
+	"description": "Campfire-like Chat System",
+	"author": "Jon Raphaelson (lygaret)",
+
+	"bin" : { "nerdchat" : "./bin/runchat.js" },
+	"main": "./lib/chat.js",
+	"directories": { "lib" : "./lib" },
+
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/lygaret/nerd-chat.git"
+	},
+
+	"dependencies": {
+		"vows" : ">=0.4.5",
+		"eyes" : ">=0.1.6"
+	},
+
+	"engine": [ "node >=0.1.97" ]
+}
+
