@@ -15,7 +15,8 @@
 
 	"dependencies": {
 		"vows" : ">=0.4.5",
-		"eyes" : ">=0.1.6"
+		"eyes" : ">=0.1.6",
+		"underscore" : ">=1.0.4"
 	},
 
 	"engine": [ "node >=0.1.97" ]
